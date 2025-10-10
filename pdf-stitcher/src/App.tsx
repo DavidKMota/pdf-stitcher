@@ -592,7 +592,7 @@ export default function App() {
           <p className="text-xs text-gray-400">Made with 💙 • 100% local processing</p>
           
           <a
-            href="https://ko-fi.com/YOUR_USERNAME"
+            href="https://ko-fi.com/pdfstitcher"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-gradient-to-r from-pink-500 to-rose-500 text-white text-sm font-medium hover:from-pink-600 hover:to-rose-600 transition-all shadow-md hover:shadow-lg"
@@ -608,4 +608,5 @@ export default function App() {
       )}
     </div>
   );
+
 }

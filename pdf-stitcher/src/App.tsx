@@ -586,7 +586,172 @@ export default function App() {
           </Card>
         </div>
       </main>
+{/* About & FAQ Section */}
+      <section className="mx-auto max-w-5xl px-4 pb-12">
+        <Card className="p-8">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">About PDF Stitcher</h2>
+          <div className="prose prose-gray max-w-none">
+            <p className="text-gray-700 mb-4">
+              PDF Stitcher is a free, privacy-focused online tool that allows you to merge multiple pages of a PDF document into a single, long scrollable page. 
+              Perfect for creating continuous documents like CVs, portfolios, infographics, or any document where you want seamless vertical scrolling.
+            </p>
+            <p className="text-gray-700 mb-4">
+              Unlike other PDF tools, PDF Stitcher processes everything directly in your browser using advanced client-side technology. 
+              This means your documents never leave your device, ensuring complete privacy and security.
+            </p>
+          </div>
 
+          <h3 className="text-xl font-bold text-gray-900 mt-8 mb-4">Frequently Asked Questions</h3>
+          
+          <div className="space-y-6">
+            <div>
+              <h4 className="font-semibold text-gray-900 mb-2">Is my PDF data safe?</h4>
+              <p className="text-gray-700 text-sm">
+                Absolutely! All processing happens entirely in your browser. Your PDF files are never uploaded to any server. 
+                We cannot see, store, or access your documents in any way.
+              </p>
+            </div>
+
+            <div>
+              <h4 className="font-semibold text-gray-900 mb-2">What file size is supported?</h4>
+              <p className="text-gray-700 text-sm">
+                We support PDF files up to 100 MB. This is sufficient for most documents. Larger files may cause performance issues in your browser.
+              </p>
+            </div>
+
+            <div>
+              <h4 className="font-semibold text-gray-900 mb-2">How many pages can I stitch?</h4>
+              <p className="text-gray-700 text-sm">
+                By default, you can process up to 50 pages. You can adjust this limit in the settings before processing your PDF.
+              </p>
+            </div>
+
+            <div>
+              <h4 className="font-semibold text-gray-900 mb-2">Will hyperlinks be preserved?</h4>
+              <p className="text-gray-700 text-sm">
+                Yes! The "Interactive Links" option (enabled by default) preserves all clickable links, mailto addresses, and internal PDF navigation.
+              </p>
+            </div>
+
+            <div>
+              <h4 className="font-semibold text-gray-900 mb-2">What browsers are supported?</h4>
+              <p className="text-gray-700 text-sm">
+                PDF Stitcher works on all modern browsers including Chrome, Firefox, Safari, and Edge. We recommend using the latest version for best performance.
+              </p>
+            </div>
+
+            <div>
+              <h4 className="font-semibold text-gray-900 mb-2">Is this tool really free?</h4>
+              <p className="text-gray-700 text-sm">
+                Yes! PDF Stitcher is completely free to use with no registration required. If you find it useful, you can support the development through our Ko-fi page.
+              </p>
+            </div>
+          </div>
+        </Card>
+
+        {/* Privacy Policy */}
+        <Card className="p-8 mt-6">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">Privacy Policy</h2>
+          <div className="prose prose-gray max-w-none text-sm space-y-4">
+            <p className="text-gray-700">
+              <strong>Last Updated:</strong> October 10, 2025
+            </p>
+            
+            <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-3">Data Collection</h3>
+            <p className="text-gray-700">
+              PDF Stitcher does not collect, store, or transmit any personal data or PDF files. All processing occurs locally in your browser.
+            </p>
+
+            <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-3">Cookies</h3>
+            <p className="text-gray-700">
+              We use cookies only for:
+            </p>
+            <ul className="list-disc pl-6 text-gray-700 space-y-2">
+              <li>Remembering your cookie consent preference</li>
+              <li>Analytics (Google Analytics) - only if you consent</li>
+              <li>Advertising (Google AdSense) - only if you consent</li>
+            </ul>
+
+            <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-3">Third-Party Services</h3>
+            <p className="text-gray-700">
+              We may use:
+            </p>
+            <ul className="list-disc pl-6 text-gray-700 space-y-2">
+              <li><strong>Google Analytics:</strong> To understand how users interact with our tool</li>
+              <li><strong>Google AdSense:</strong> To display relevant advertisements</li>
+              <li><strong>Ko-fi:</strong> For optional donations (processes payments securely)</li>
+            </ul>
+
+            <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-3">Your Rights</h3>
+            <p className="text-gray-700">
+              You can decline cookies at any time through our cookie consent banner. Since we don't collect personal data, 
+              there is no data to request, modify, or delete.
+            </p>
+
+            <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-3">Contact</h3>
+            <p className="text-gray-700">
+              For privacy concerns, please contact us through our Ko-fi page.
+            </p>
+          </div>
+        </Card>
+
+        {/* Terms of Service */}
+        <Card className="p-8 mt-6">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">Terms of Service</h2>
+          <div className="prose prose-gray max-w-none text-sm space-y-4">
+            <p className="text-gray-700">
+              <strong>Last Updated:</strong> October 10, 2025
+            </p>
+
+            <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-3">Acceptance of Terms</h3>
+            <p className="text-gray-700">
+              By using PDF Stitcher, you agree to these Terms of Service. If you do not agree, please do not use this tool.
+            </p>
+
+            <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-3">Use of Service</h3>
+            <p className="text-gray-700">
+              PDF Stitcher is provided "as is" for personal and commercial use. You may:
+            </p>
+            <ul className="list-disc pl-6 text-gray-700 space-y-2">
+              <li>Use the tool for any legal purpose</li>
+              <li>Process any PDF documents you have rights to</li>
+              <li>Use generated PDFs for personal or commercial projects</li>
+            </ul>
+
+            <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-3">Prohibited Uses</h3>
+            <p className="text-gray-700">
+              You may NOT:
+            </p>
+            <ul className="list-disc pl-6 text-gray-700 space-y-2">
+              <li>Use this tool for any illegal activity</li>
+              <li>Attempt to reverse engineer or copy the source code for commercial redistribution</li>
+              <li>Overload or abuse the service infrastructure</li>
+            </ul>
+
+            <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-3">Disclaimer</h3>
+            <p className="text-gray-700">
+              PDF Stitcher is provided without warranty of any kind. We are not responsible for:
+            </p>
+            <ul className="list-disc pl-6 text-gray-700 space-y-2">
+              <li>Loss of data or corrupted PDF files</li>
+              <li>Errors in processing or output quality</li>
+              <li>Browser compatibility issues</li>
+              <li>Any damages arising from use of this tool</li>
+            </ul>
+
+            <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-3">Limitation of Liability</h3>
+            <p className="text-gray-700">
+              In no event shall PDF Stitcher be liable for any indirect, incidental, special, or consequential damages 
+              related to your use of this service.
+            </p>
+
+            <h3 className="text-lg font-semibold text-gray-900 mt-6 mb-3">Changes to Terms</h3>
+            <p className="text-gray-700">
+              We reserve the right to modify these terms at any time. Continued use of the service constitutes acceptance of updated terms.
+            </p>
+          </div>
+        </Card>
+      </section>
       <footer className="mx-auto max-w-5xl px-4 pb-8">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 pt-8 border-t border-gray-200">
           <p className="text-xs text-gray-400">Made with 💙 • 100% local processing</p>
@@ -610,3 +775,4 @@ export default function App() {
   );
 
 }
+

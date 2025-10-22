@@ -586,6 +586,272 @@ export default function App() {
           </Card>
         </div>
       </main>
+      {/* Blog Section */}
+      <section className="mx-auto max-w-5xl px-4 py-16 bg-gray-50">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">PDF Tips & Guides</h2>
+          <p className="text-gray-600">Learn everything about PDF processing, merging, and optimization</p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {/* Article 1 */}
+          <Card className="p-6 hover:shadow-lg transition-shadow">
+            <div className="mb-4">
+              <span className="text-xs font-semibold text-emerald-600 uppercase tracking-wide">Tutorial</span>
+              <h3 className="text-xl font-bold text-gray-900 mt-2 mb-3">
+                How to Merge PDF Pages into One Long Page: Complete Guide
+              </h3>
+              <p className="text-sm text-gray-500 mb-4">October 10, 2025 • 5 min read</p>
+            </div>
+            <div className="prose prose-sm max-w-none text-gray-700 space-y-3">
+              <p>
+                Merging multiple PDF pages into a single, long scrollable page is a common need for professionals creating 
+                portfolios, infographics, or continuous documents. This comprehensive guide explains everything you need to know.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Why Merge PDF Pages?</h4>
+              <p>
+                Traditional multi-page PDFs require constant scrolling or page navigation, which can disrupt the reading 
+                experience. A single long page offers seamless vertical scrolling, perfect for presentations, CVs, timelines, 
+                and infographics where continuity matters.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Best Practices</h4>
+              <ul className="list-disc pl-5 space-y-2">
+                <li>Keep file size under 50MB for optimal browser performance</li>
+                <li>Maintain consistent page widths for professional appearance</li>
+                <li>Add spacing between sections (20-30 points recommended)</li>
+                <li>Preserve hyperlinks for interactive documents</li>
+                <li>Test the final output on multiple devices</li>
+              </ul>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Common Use Cases</h4>
+              <p>
+                Designers use merged PDFs for portfolio presentations, HR professionals create single-page CVs, 
+                marketers build long-form infographics, and educators develop continuous study guides. The technique 
+                is also popular for creating scrollable comic books and manga.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Technical Considerations</h4>
+              <p>
+                When merging pages, consider the output file size. Large PDFs (100+ pages) may cause browser performance 
+                issues. We recommend processing in batches of 50 pages maximum. Always keep a backup of your original file 
+                before processing.
+              </p>
+            </div>
+          </Card>
+
+          {/* Article 2 */}
+          <Card className="p-6 hover:shadow-lg transition-shadow">
+            <div className="mb-4">
+              <span className="text-xs font-semibold text-blue-600 uppercase tracking-wide">Privacy</span>
+              <h3 className="text-xl font-bold text-gray-900 mt-2 mb-3">
+                Why Browser-Based PDF Tools Are Safer Than Online Converters
+              </h3>
+              <p className="text-sm text-gray-500 mb-4">October 9, 2025 • 6 min read</p>
+            </div>
+            <div className="prose prose-sm max-w-none text-gray-700 space-y-3">
+              <p>
+                In an era of increasing data breaches and privacy concerns, choosing the right PDF tool matters more than ever. 
+                Browser-based tools offer significant security advantages over traditional online converters.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">The Upload Risk</h4>
+              <p>
+                Traditional online PDF converters require uploading your documents to remote servers. This creates multiple 
+                risk points: data interception during transfer, storage on unknown servers, potential data breaches, and 
+                unclear data retention policies. Your confidential documents could be stored indefinitely without your knowledge.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">How Browser Processing Works</h4>
+              <p>
+                Client-side PDF tools process everything locally in your browser using JavaScript and WebAssembly. Your files 
+                never leave your device. The processing happens entirely on your CPU, ensuring complete privacy. No server can 
+                access, store, or analyze your documents.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Performance Benefits</h4>
+              <p>
+                Beyond security, browser-based tools offer speed advantages. No upload/download time means instant processing 
+                for most documents. You're also not dependent on internet speed or server availability. Work offline without 
+                limitations.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Compliance Matters</h4>
+              <p>
+                For businesses handling sensitive information, GDPR compliance and data protection regulations make browser-based 
+                tools the only viable option. When documents never leave the user's device, compliance becomes straightforward. 
+                No data transfer means no data breach risk.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Limitations to Consider</h4>
+              <p>
+                Browser-based tools have constraints: very large files (200MB+) may cause performance issues, and processing 
+                power depends on the user's device. However, for 95% of use cases, these limitations are irrelevant compared 
+                to the privacy benefits.
+              </p>
+            </div>
+          </Card>
+
+          {/* Article 3 */}
+          <Card className="p-6 hover:shadow-lg transition-shadow">
+            <div className="mb-4">
+              <span className="text-xs font-semibold text-purple-600 uppercase tracking-wide">Optimization</span>
+              <h3 className="text-xl font-bold text-gray-900 mt-2 mb-3">
+                10 Essential PDF Optimization Tips for 2025
+              </h3>
+              <p className="text-sm text-gray-500 mb-4">October 8, 2025 • 7 min read</p>
+            </div>
+            <div className="prose prose-sm max-w-none text-gray-700 space-y-3">
+              <p>
+                PDF optimization isn't just about file size—it's about creating documents that load quickly, display correctly, 
+                and remain accessible across all devices. Here are the essential techniques every PDF user should know.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">1. Compress Images Intelligently</h4>
+              <p>
+                Images often account for 80% of PDF file size. Use JPEG compression for photographs (quality 85 is optimal) 
+                and PNG for graphics with text. Consider downsampling images to 150 DPI for screen viewing—most displays 
+                can't show higher resolution anyway.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">2. Embed Fonts Selectively</h4>
+              <p>
+                Embedding fonts ensures consistency but increases file size. Only embed fonts actually used in the document, 
+                and consider subsetting (including only used characters). Standard fonts like Arial and Times don't need embedding.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">3. Remove Unnecessary Metadata</h4>
+              <p>
+                PDFs often contain hidden data: previous versions, comments, editing history, and custom properties. Cleaning 
+                metadata can reduce file size by 10-20% while protecting privacy. Always sanitize documents before sharing publicly.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">4. Optimize for Fast Web View</h4>
+              <p>
+                Enable "Fast Web View" (linearization) to allow page-by-page loading instead of downloading the entire file. 
+                This is crucial for large documents shared online. Users can start reading the first page while remaining pages 
+                load in the background.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">5. Use Proper PDF Versions</h4>
+              <p>
+                PDF 1.7 (PDF/A) is the sweet spot for compatibility and features. Avoid bleeding-edge versions unless you need 
+                specific features—they may not display correctly in older readers. PDF/A format is ideal for long-term archival.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Additional Tips</h4>
+              <ul className="list-disc pl-5 space-y-1">
+                <li>Remove duplicate resources and unused objects</li>
+                <li>Flatten form fields after completion</li>
+                <li>Convert color to grayscale when color isn't needed</li>
+                <li>Use object streams for better compression</li>
+                <li>Test output across different PDF readers</li>
+              </ul>
+            </div>
+          </Card>
+
+          {/* Article 4 */}
+          <Card className="p-6 hover:shadow-lg transition-shadow">
+            <div className="mb-4">
+              <span className="text-xs font-semibold text-orange-600 uppercase tracking-wide">Technology</span>
+              <h3 className="text-xl font-bold text-gray-900 mt-2 mb-3">
+                Understanding PDF Structure: A Developer's Guide
+              </h3>
+              <p className="text-sm text-gray-500 mb-4">October 7, 2025 • 8 min read</p>
+            </div>
+            <div className="prose prose-sm max-w-none text-gray-700 space-y-3">
+              <p>
+                PDFs appear simple to users, but the underlying structure is complex and fascinating. Understanding PDF internals 
+                helps developers build better tools and users troubleshoot common issues.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">The PDF File Structure</h4>
+              <p>
+                A PDF consists of four main sections: the header (defining PDF version), body (containing objects like pages, 
+                fonts, and images), cross-reference table (index of all objects), and trailer (pointing to the root object). 
+                This structure allows random access to any page without parsing the entire file.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Objects and Streams</h4>
+              <p>
+                Everything in a PDF is an object: pages, fonts, images, annotations. Objects can be direct (inline) or indirect 
+                (referenced by number). Streams contain actual data like image bytes or content streams. Understanding this 
+                object model is key to PDF manipulation.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Coordinate Systems</h4>
+              <p>
+                PDFs use a bottom-left origin coordinate system (unlike most graphics APIs). This causes confusion when 
+                positioning elements. Each page has its own coordinate space, with units in points (1/72 inch). Transformations 
+                allow rotation, scaling, and skewing.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Content Streams</h4>
+              <p>
+                Page content is described in a PostScript-like language. Commands like "m" (moveto), "l" (lineto), and "S" 
+                (stroke) draw paths. Text operators place glyphs at specific positions. This low-level control enables precise 
+                rendering but makes direct editing challenging.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Compression Techniques</h4>
+              <p>
+                PDFs support multiple compression algorithms: Flate (similar to ZIP), JPEG for images, JBIG2 for monochrome 
+                images, and JPEG2000. Object streams (PDF 1.5+) can compress multiple objects together for better ratios. 
+                Choosing the right compression for each data type is crucial for file size optimization.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Interactive Elements</h4>
+              <p>
+                Forms, annotations, and interactive features use the AcroForm dictionary. Each field has properties defining 
+                type, appearance, and behavior. JavaScript can be embedded for dynamic behavior. Understanding these structures 
+                is essential when preserving interactivity during merging or splitting operations.
+              </p>
+            </div>
+          </Card>
+
+          {/* Article 5 */}
+          <Card className="p-6 hover:shadow-lg transition-shadow">
+            <div className="mb-4">
+              <span className="text-xs font-semibold text-red-600 uppercase tracking-wide">Best Practices</span>
+              <h3 className="text-xl font-bold text-gray-900 mt-2 mb-3">
+                Creating Print-Ready PDFs: Professional Standards
+              </h3>
+              <p className="text-sm text-gray-500 mb-4">October 6, 2025 • 6 min read</p>
+            </div>
+            <div className="prose prose-sm max-w-none text-gray-700 space-y-3">
+              <p>
+                Whether you're designing business cards or preparing a book for publication, print-ready PDFs require specific 
+                technical standards. Getting these details right prevents costly printing errors and ensures professional results.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Color Mode: CMYK vs RGB</h4>
+              <p>
+                Screens use RGB (Red, Green, Blue) while printers use CMYK (Cyan, Magenta, Yellow, Black). Always convert to 
+                CMYK before printing. Colors will look different—RGB has a wider gamut, so some bright colors can't be reproduced 
+                in CMYK. Perform soft proofing to preview how colors will print.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Bleed and Safe Areas</h4>
+              <p>
+                Bleed is the extra area extending beyond the trim line (typically 3mm). It prevents white edges if cutting isn't 
+                perfectly aligned. Keep important content within the safe area (3-5mm from trim line). Text too close to edges 
+                may be cut off during trimming.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Resolution Requirements</h4>
+              <p>
+                Images should be 300 DPI minimum for professional printing. Lower resolution produces pixelated results. 
+                Vector graphics (text, logos) should remain as vectors, not rasterized. Check for low-resolution images using 
+                PDF preflight tools before sending to the printer.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Font Embedding</h4>
+              <p>
+                Always embed all fonts used in the document. Missing fonts cause text to reflow incorrectly or display in 
+                substitute fonts. Convert text to outlines only as a last resort—it increases file size and prevents text 
+                searching. Use font subsetting to minimize file size while maintaining full embedding.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">PDF/X Standards</h4>
+              <p>
+                PDF/X-1a is the most common standard for print. It ensures color compliance, font embedding, and prohibits 
+                RGB content. PDF/X-4 allows transparency and layers. Always ask your printer which standard they prefer. 
+                These standards eliminate most common printing problems.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Pre-Flight Checklist</h4>
+              <ul className="list-disc pl-5 space-y-1">
+                <li>All colors converted to CMYK</li>
+                <li>Bleed added (3mm minimum)</li>
+                <li>Images at 300 DPI or higher</li>
+                <li>Fonts embedded and subset</li>
+                <li>Crop marks and registration marks included if required</li>
+                <li>File saved as PDF/X-1a or printer's preferred standard</li>
+              </ul>
+            </div>
+          </Card>
+        </div>
+
+        <div className="text-center mt-12">
+          <p className="text-gray-600 text-sm">
+            Want to learn more? Check back regularly for new guides and tutorials about PDF processing.
+          </p>
+        </div>
+      </section>
 {/* About & FAQ Section */}
       <section className="mx-auto max-w-5xl px-4 pb-12">
         <Card className="p-8">
@@ -775,4 +1041,5 @@ export default function App() {
   );
 
 }
+
 

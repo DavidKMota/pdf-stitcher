@@ -844,6 +844,282 @@ export default function App() {
               </ul>
             </div>
           </Card>
+          {/* Article 6 */}
+          <Card className="p-6 hover:shadow-lg transition-shadow">
+            <div className="mb-4">
+              <span className="text-xs font-semibold text-indigo-600 uppercase tracking-wide">Workflow</span>
+              <h3 className="text-xl font-bold text-gray-900 mt-2 mb-3">
+                Streamlining Document Workflows with PDF Automation
+              </h3>
+              <p className="text-sm text-gray-500 mb-4">October 5, 2025 • 7 min read</p>
+            </div>
+            <div className="prose prose-sm max-w-none text-gray-700 space-y-3">
+              <p>
+                Modern businesses process thousands of PDF documents daily. Manual handling creates bottlenecks, errors, 
+                and wasted time. Automating PDF workflows can save hours of work while improving accuracy and consistency.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Common PDF Workflow Challenges</h4>
+              <p>
+                Teams often struggle with repetitive tasks: converting formats, extracting data, splitting large files, 
+                merging multiple documents, and standardizing naming conventions. These manual processes consume valuable 
+                time that could be spent on higher-value work.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Automation Opportunities</h4>
+              <p>
+                Identify processes you repeat daily or weekly. Common candidates include: invoice processing, contract 
+                generation, report compilation, form data extraction, and document archival. Even partially automating 
+                these workflows yields significant time savings.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Tools and Technologies</h4>
+              <p>
+                Modern PDF automation leverages various technologies: browser-based tools for privacy-sensitive documents, 
+                API integrations for server-side processing, OCR for text extraction from scans, and batch processing for 
+                handling multiple files simultaneously. Choose tools based on your security requirements and volume.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Building Efficient Workflows</h4>
+              <p>
+                Start by mapping your current process: identify inputs, outputs, and transformation steps. Look for 
+                decision points that can be automated with rules. Document exceptions that need human review. Then 
+                implement automation incrementally, starting with the highest-impact, lowest-complexity tasks.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Measuring Success</h4>
+              <p>
+                Track key metrics: time saved per document, error rate reduction, processing volume increase, and user 
+                satisfaction. Calculate ROI by comparing time savings against implementation costs. Continuously refine 
+                workflows based on user feedback and changing business needs.
+              </p>
+            </div>
+          </Card>
+
+          {/* Article 7 */}
+          <Card className="p-6 hover:shadow-lg transition-shadow">
+            <div className="mb-4">
+              <span className="text-xs font-semibold text-teal-600 uppercase tracking-wide">Accessibility</span>
+              <h3 className="text-xl font-bold text-gray-900 mt-2 mb-3">
+                Creating Accessible PDFs: Guidelines and Best Practices
+              </h3>
+              <p className="text-sm text-gray-500 mb-4">October 4, 2025 • 6 min read</p>
+            </div>
+            <div className="prose prose-sm max-w-none text-gray-700 space-y-3">
+              <p>
+                Accessible PDFs ensure everyone, including people with disabilities, can access your content. Beyond legal 
+                compliance, accessibility improves usability for all users and demonstrates organizational commitment to inclusion.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Why Accessibility Matters</h4>
+              <p>
+                Over one billion people worldwide have disabilities. Screen readers, magnification software, and alternative 
+                input devices help them access digital content. Inaccessible PDFs exclude this significant audience. Legal 
+                requirements like ADA, Section 508, and WCAG 2.1 mandate accessibility for many organizations.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Document Structure</h4>
+              <p>
+                Proper structure is fundamental to accessibility. Use semantic headings (H1, H2, H3) to create logical 
+                hierarchy. Mark lists appropriately. Define reading order explicitly. Tag tables with headers and data 
+                cells. These structural elements help screen readers navigate efficiently.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Alternative Text</h4>
+              <p>
+                Every image needs descriptive alternative text (alt text). Describe the image's purpose and content, not 
+                just appearance. For complex graphics like charts, provide detailed descriptions. Mark decorative images 
+                as artifacts so screen readers skip them. Never embed important text in images without providing alternatives.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Color and Contrast</h4>
+              <p>
+                Don't rely solely on color to convey information—use text labels, patterns, or icons too. Ensure sufficient 
+                contrast: 4.5:1 for normal text, 3:1 for large text. This helps users with low vision and color blindness. 
+                Test contrast ratios using online tools before finalizing documents.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Interactive Elements</h4>
+              <p>
+                Form fields need descriptive labels and tab order. Provide instructions and error messages. Ensure keyboard 
+                navigation works without a mouse. Links should have meaningful text—avoid "click here." All interactive 
+                elements must be accessible via keyboard and announced correctly by screen readers.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Testing and Validation</h4>
+              <p>
+                Use Adobe Acrobat's accessibility checker as a starting point. Test with actual screen readers like NVDA 
+                (free) or JAWS. Navigate using only the keyboard. Ask users with disabilities to review critical documents. 
+                Automated tools catch obvious issues but can't evaluate semantic correctness or user experience.
+              </p>
+            </div>
+          </Card>
+
+          {/* Article 8 */}
+          <Card className="p-6 hover:shadow-lg transition-shadow">
+            <div className="mb-4">
+              <span className="text-xs font-semibold text-pink-600 uppercase tracking-wide">Security</span>
+              <h3 className="text-xl font-bold text-gray-900 mt-2 mb-3">
+                PDF Security Essentials: Protecting Sensitive Documents
+              </h3>
+              <p className="text-sm text-gray-500 mb-4">October 3, 2025 • 8 min read</p>
+            </div>
+            <div className="prose prose-sm max-w-none text-gray-700 space-y-3">
+              <p>
+                PDFs often contain sensitive information: financial data, personal details, confidential business plans, 
+                or legal documents. Understanding PDF security features helps protect this information from unauthorized 
+                access, modification, or distribution.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Encryption Basics</h4>
+              <p>
+                PDF encryption uses passwords to protect content. User passwords prevent opening the document. Owner 
+                passwords restrict editing, printing, or copying. Use strong passwords (12+ characters, mixed case, 
+                numbers, symbols). Modern PDFs support AES 256-bit encryption, nearly unbreakable with current technology.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Permission Controls</h4>
+              <p>
+                Set granular permissions: allow printing but not editing, permit copying text but not form filling, enable 
+                commenting but restrict page manipulation. These controls help share information while maintaining control. 
+                However, determined attackers with the user password can potentially bypass some restrictions.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Digital Signatures</h4>
+              <p>
+                Digital signatures verify document authenticity and detect tampering. They use certificate-based cryptography, 
+                providing stronger security than passwords alone. Recipients can verify the signer's identity and confirm 
+                no modifications occurred after signing. Essential for legal documents and contracts.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Redaction Best Practices</h4>
+              <p>
+                Never use black rectangles to hide sensitive text—the underlying content remains searchable and copyable. 
+                Use proper redaction tools that permanently remove information. Redact metadata too: author names, edit 
+                history, and comments can reveal sensitive details. Always save as a new file after redaction.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Metadata Privacy</h4>
+              <p>
+                PDFs contain hidden metadata: creation date, modification history, author names, editing software, 
+                file paths, and custom properties. This metadata can reveal confidential information. Sanitize metadata 
+                before sharing documents externally. Most PDF tools include metadata removal options.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Safe Sharing Practices</h4>
+              <p>
+                Consider your sharing method's security. Email isn't encrypted by default—use secure file transfer for 
+                sensitive documents. Cloud sharing services vary in security. For highly sensitive documents, use dedicated 
+                secure document sharing platforms with access logging and automatic expiration.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Vulnerability Awareness</h4>
+              <p>
+                PDFs can contain malicious JavaScript or embedded files. Never open PDFs from untrusted sources. Keep 
+                your PDF reader updated—vulnerabilities are regularly discovered and patched. Consider using sandboxed 
+                PDF viewers for unknown documents. Disable JavaScript execution in PDFs if not needed.
+              </p>
+            </div>
+          </Card>
+
+          {/* Article 9 */}
+          <Card className="p-6 hover:shadow-lg transition-shadow">
+            <div className="mb-4">
+              <span className="text-xs font-semibold text-amber-600 uppercase tracking-wide">Mobile</span>
+              <h3 className="text-xl font-bold text-gray-900 mt-2 mb-3">
+                Mobile PDF Viewing: Challenges and Solutions
+              </h3>
+              <p className="text-sm text-gray-500 mb-4">October 2, 2025 • 5 min read</p>
+            </div>
+            <div className="prose prose-sm max-w-none text-gray-700 space-y-3">
+              <p>
+                Mobile devices now account for over 60% of web traffic, yet PDFs often provide poor mobile experiences. 
+                Understanding mobile PDF challenges helps create documents that work across all devices.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Screen Size Limitations</h4>
+              <p>
+                Desktop PDFs assume large displays. Small phone screens force constant zooming and scrolling. Text becomes 
+                unreadable. Multi-column layouts break. Fixed-width designs don't adapt. These issues frustrate users and 
+                reduce engagement with your content.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Creating Mobile-Friendly PDFs</h4>
+              <p>
+                Design with mobile in mind: use single-column layouts, larger fonts (14pt minimum for body text), generous 
+                line spacing, and sufficient margins. Avoid tiny text in images. Test on actual mobile devices. Consider 
+                creating separate mobile-optimized versions for critical documents.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Reflow and Tagged PDFs</h4>
+              <p>
+                Properly tagged PDFs enable reflow—text automatically adjusts to screen width. Users can resize text without 
+                horizontal scrolling. This requires semantic tagging during creation. Not all PDF creators support proper 
+                tagging, but the improved mobile experience justifies the extra effort.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">File Size Considerations</h4>
+              <p>
+                Mobile users often rely on cellular data with bandwidth caps. Large PDFs consume data allowances and 
+                take forever to load. Optimize images aggressively. Remove unnecessary elements. Consider splitting 
+                very long documents into chapters. Aim for under 5MB per file for mobile-friendliness.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Interactive Elements on Touch Screens</h4>
+              <p>
+                Form fields and buttons need larger tap targets (44x44 pixels minimum) for touchscreen accuracy. Ensure 
+                sufficient spacing between interactive elements. Test form filling on mobile—tiny fields frustrate users. 
+                Consider whether complex forms should use mobile-responsive web forms instead of PDFs.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Alternative Formats</h4>
+              <p>
+                For content consumed primarily on mobile, consider responsive HTML or EPUB instead of PDF. These formats 
+                adapt naturally to any screen size. Reserve PDFs for documents requiring precise layout: forms, 
+                certificates, formal reports, or content intended for printing.
+              </p>
+            </div>
+          </Card>
+
+          {/* Article 10 */}
+          <Card className="p-6 hover:shadow-lg transition-shadow">
+            <div className="mb-4">
+              <span className="text-xs font-semibold text-cyan-600 uppercase tracking-wide">Tools</span>
+              <h3 className="text-xl font-bold text-gray-900 mt-2 mb-3">
+                Choosing the Right PDF Tools for Your Needs in 2025
+              </h3>
+              <p className="text-sm text-gray-500 mb-4">October 1, 2025 • 7 min read</p>
+            </div>
+            <div className="prose prose-sm max-w-none text-gray-700 space-y-3">
+              <p>
+                The PDF tool landscape is vast and confusing. Free tools, premium software, online services, and 
+                browser-based options each have trade-offs. This guide helps you choose tools matching your needs, 
+                budget, and security requirements.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Evaluating Your Needs</h4>
+              <p>
+                Start by identifying your primary use cases: creation, editing, conversion, security, forms, or signatures? 
+                How often will you use these features? Do you handle sensitive documents requiring privacy? What's your 
+                technical skill level? Honest assessment prevents overpaying for unused features or compromising on 
+                essential capabilities.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Free vs. Premium Tools</h4>
+              <p>
+                Free tools work well for basic tasks: viewing, simple edits, and conversion. Premium tools (Adobe Acrobat, 
+                Foxit, Nitro) offer advanced features: OCR, batch processing, digital signatures, and extensive form 
+                creation. Consider annual costs versus time saved. For occasional users, free tools plus specialty 
+                services for rare tasks often makes sense.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Online vs. Desktop vs. Browser-Based</h4>
+              <p>
+                Online tools require uploading files—convenient but risky for sensitive documents. Desktop software offers 
+                full features offline but requires installation and updates. Browser-based tools process locally (like 
+                PDF Stitcher), combining privacy with convenience. Choose based on your security needs and workflow preferences.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Open Source Options</h4>
+              <p>
+                Open source tools provide transparency and zero licensing costs. Options like LibreOffice (PDF export), 
+                Inkscape (PDF editing), and PDFtk (command-line manipulation) handle many tasks. They require more 
+                technical knowledge but offer excellent value for budget-conscious users willing to learn.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Mobile Apps</h4>
+              <p>
+                Mobile PDF apps range from simple viewers to full-featured editors. Adobe Acrobat Reader (free) handles 
+                basic viewing and annotation. Premium mobile apps enable advanced editing and form filling. For quick 
+                reviews and signatures on-the-go, free apps suffice. Complex editing still works better on desktop.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Integration Considerations</h4>
+              <p>
+                If you use specific software ecosystems (Microsoft 365, Google Workspace, Adobe Creative Cloud), choose 
+                PDF tools integrating with your existing workflow. Native integration saves time switching between apps 
+                and transferring files. Check whether tools offer APIs for custom integrations if needed.
+              </p>
+              <h4 className="font-semibold text-gray-900 mt-4 mb-2">Our Recommendations</h4>
+              <ul className="list-disc pl-5 space-y-2">
+                <li><strong>Basic users:</strong> Browser PDF viewer + free online tools for occasional needs</li>
+                <li><strong>Privacy-conscious:</strong> Browser-based tools like PDF Stitcher + desktop software for local processing</li>
+                <li><strong>Professional users:</strong> Adobe Acrobat Pro or Foxit PhantomPDF for comprehensive features</li>
+                <li><strong>Budget users:</strong> LibreOffice + open source tools + specialized free services</li>
+                <li><strong>Enterprise:</strong> Adobe Document Cloud or Foxit eSign for team collaboration and compliance</li>
+              </ul>
+            </div>
+          </Card>
         </div>
 
         <div className="text-center mt-12">
@@ -1041,5 +1317,6 @@ export default function App() {
   );
 
 }
+
 
 

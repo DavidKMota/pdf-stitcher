@@ -7,7 +7,37 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://pdf-stitcher.vercel.app/#blog</loc>
+    <loc>https://pdf-stitcher.vercel.app/blog</loc>
+    <lastmod>2025-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://pdf-stitcher.vercel.app/blog/pdf-privacy-security</loc>
+    <lastmod>2025-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pdf-stitcher.vercel.app/blog/optimize-pdf-size</loc>
+    <lastmod>2025-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pdf-stitcher.vercel.app/blog/pdf-structure-explained</loc>
+    <lastmod>2025-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pdf-stitcher.vercel.app/blog/pdf-accessibility-standards</loc>
+    <lastmod>2025-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://pdf-stitcher.vercel.app/blog/pdf-print-production</loc>
     <lastmod>2025-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
